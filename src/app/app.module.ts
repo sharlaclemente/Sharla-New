@@ -6,9 +6,13 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
-import { ContactComponent } from './contact/contact.component';
+import { SignupComponent } from './signup/signup.component';
 
 import { HttpClientModule } from '@angular/common/http';
+
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { ProfilesComponent } from './profiles/profiles.component';
+import { FosterprofileComponent } from './fosterprofile/fosterprofile.component';
 
 
 
@@ -18,13 +22,16 @@ import { HttpClientModule } from '@angular/common/http';
     AppComponent,
     HomeComponent,
     AboutComponent,
-    ContactComponent
+    SignupComponent,
+    ProfilesComponent,
+    FosterprofileComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ContactComponent
+    NgbModule.forRoot(),
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

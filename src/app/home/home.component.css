@@ -1,0 +1,54 @@
+.goldGlitter{
+    background-image: url('http://media.giphy.com/media/3IaC81YOZudfa/giphy.gif');
+    background-size: 100%;
+}
+.img-container {
+    width: 300px;
+    height: 300px;
+    color: green;
+}
+
+/* resize images */
+.img-container img {
+    width: 300px;
+    height: 300px;
+    color: green;
+}
+
+#girl {
+    position: absolute;
+    top: 0;
+    text-align: center;
+    height: 180px;
+}
+
+#hi {
+    color: white;
+}
+ #hey {
+     color:white;
+ }
+
+ .carousel-item {
+     background-color: transparent;
+ }
+.pics{
+   background-size: 100%;
+}
+.picture{
+    max-height: 500px;
+    
+}
+.carousel2{
+    width:600px;
+
+}
+.edit{
+    height: 450px;
+}
+.center{
+    padding-left: 100px; 
+}
+.time{
+    color: white
+}
